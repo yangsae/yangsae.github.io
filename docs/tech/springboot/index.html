@@ -11,8 +11,7 @@
 <title>
   
     
-    
-    Tech
+    Springboot
   
  | blog</title>
 
@@ -27,7 +26,6 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="alternate" type="application/rss+xml" href="https://yangsae.github.io/docs/tech/index.xml" title="blog" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -54,7 +52,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   <style>
-  nav ul a[href$="\2f docs\2ftech\2f "] {
+  nav ul a[href$="\2f docs\2ftech\2fspringboot\2f "] {
       color: #004ed0;
   }
   </style>
@@ -87,15 +85,43 @@ https://github.com/alex-shpak/hugo-book
   <strong>
   
     
-    
-    Tech
+    Springboot
   
 </strong>
 </header>
 
       
-<article class="markdown"><ul>
-<li><a href="/docs/tech/kubernetes">Kubernetes</a></li>
+<article class="markdown">
+
+<h2 id="spring-boot">Spring Boot</h2>
+
+<hr />
+
+<h3 id="코드-구조">코드 구조</h3>
+
+<h4 id="main-application-class">Main Application Class</h4>
+
+<hr />
+
+<ul>
+<li><p>메인 클래스는 다른 클래스들의 최상위의 root package에 위치</p>
+
+<p>com
+ +- example
+     +- myapplication
+         +- Application.java
+         |
+         +- customer
+         |   +- Customer.java
+         |   +- CustomerController.java
+         |   +- CustomerService.java
+         |   +- CustomerRepository.java
+         |
+         +- order
+             +- Order.java
+             +- OrderController.java
+             +- OrderService.java
+             +- OrderRepository.java</p></li>
 </ul>
 </article>
 
@@ -107,6 +133,23 @@ https://github.com/alex-shpak/hugo-book
     
   
   
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#spring-boot">Spring Boot</a>
+<ul>
+<li><a href="#코드-구조">코드 구조</a>
+<ul>
+<li><a href="#main-application-class">Main Application Class</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
 
 
   </main>

@@ -17,7 +17,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yangsae.github.io/docs/words/container/</guid>
-      <description> Container 란? </description>
+      <description>Container 의미  어떤 것을 격리하는 공간 애플리케이션과 애플리케이션 구동 환경을 격리한 공간  왜 사용하나  대부분의 서버 장비는 컴퓨팅 환경을 소프트웨어로 구성한 VM을 사용  다수의 OS를 동시에 실행하기 위해 Hypervisor가 필요 그 위에 Guest OS가 설치된 VM을 구동  컨테이너로 구성된 서버는 Hypervisor를 사용하지 않고 CPU, RAM, Disk, Network 등의 OS 자원을 필요한 만큼 격리해 컨테이너에 할당
+  --
+장점 d
+d
+d
+d
+d</description>
     </item>
     
   </channel>

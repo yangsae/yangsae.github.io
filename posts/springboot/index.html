@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  
+    
+    Springboot
+  
+ | blog</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/book.min.3c5e7cb7c2272ae0790d6203f57370ee575c6f95f6f27809818a660c370d303d.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://yangsae.github.io/">blog</a>
+</h2>
+
+
+
+    
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2fposts\2fspringboot\2f "] {
+      color: #004ed0;
+  }
+  </style>
+
+<ul>
+<li><a href="/posts">Blog</a></li>
+<li><a href="/docs">Docs</a>
+
+<ul>
+<li><a href="/docs/tech">Tech</a></li>
+<li><a href="/docs/words">Words</a></li>
+</ul></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+
+    </aside>
+
+    <div class="book-posts">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Springboot
+  
+</strong>
+</header>
+
+      
+
+<header class="markdown">
+  <h1>Springboot</h1>
+  <h5>
+    <strong>January 1, 0001</strong>
+  </h5>
+</header>
+<article class="markdown">
+
+<h2 id="spring-boot">Spring Boot</h2>
+
+<hr />
+
+<h3 id="코드-구조">코드 구조</h3>
+
+<h4 id="main-application-class">Main Application Class</h4>
+
+<hr />
+
+<ul>
+<li>메인 클래스는 다른 클래스들의 최상위의 root package에 위치
+<pre>
+com
+ +- example
+     +- myapplication
+         +- Application.java
+         |
+         +- customer
+         |   +- Customer.java
+         |   +- CustomerController.java
+         |   +- CustomerService.java
+         |   +- CustomerRepository.java
+         |
+         +- order
+             +- Order.java
+             +- OrderController.java
+             +- OrderService.java
+             +- OrderRepository.java
+</pre></li>
+<li><code>Application.java</code> 파일에 <code>@SpringBootApplication</code> 어노테이션으로 <code>main</code> 메소드를 선언<br /></li>
+<li><code>@SpringBootApplication</code> 어노테이션은 root package를 이용해 <code>@Entity</code> 아이템들을 검색함</li>
+
+<li><p><code>@SpringBootApplication</code> 어노테이션은 <code>@EnableAutoConfiguration</code>과 <code>@ComponentScan</code> 어노테이션 둘의 역할을 함
+<pre>
+package com.example.myapplication;</p>
+
+<p>import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;</p>
+
+<p>@SpringBootApplication
+public class Application {</p>
+
+<pre><code>public static void main(String[] args) {
+    SpringApplication.run(Application.class, args);
+}
+</code></pre>
+
+<p>}
+</pre></p></li>
+</ul>
+
+<h4 id="설정-클래스">설정 클래스</h4>
+
+<hr />
+
+<ul>
+<li>스프링 부트는 자바 기반 설정을 선호함
+-</li>
+</ul>
+</article>
+
+      
+    </div>
+  </main>
+
+  
+  
+</body>
+
+</html>

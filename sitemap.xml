@@ -7,13 +7,30 @@
   </url>
   
   <url>
+    <loc>https://yangsae.github.io/docs/tech/kubernetes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yangsae.github.io/docs/tech/springboot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yangsae.github.io/posts/springboot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yangsae.github.io/posts/documentation/</loc>
+    <lastmod>2019-05-16T15:12:52+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yangsae.github.io/</loc>
-    <lastmod>2019-05-14T19:05:52+09:00</lastmod>
+    <lastmod>2019-05-16T15:12:52+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://yangsae.github.io/posts/</loc>
-    <lastmod>2019-05-14T19:05:52+09:00</lastmod>
+    <lastmod>2019-05-16T15:12:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -34,12 +51,10 @@
   
   <url>
     <loc>https://yangsae.github.io/docs/tech/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yangsae.github.io/docs/words/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
